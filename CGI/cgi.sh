@@ -40,16 +40,7 @@ print "Exemplo: Texto de Sua Escolha."
 print "</div></body></html>"
 EOF
 
-sudo chmod 705 /var/www/html/cgi-enabled/index.py 
-
-
+sudo chmod 705 /var/www/html/cgi-enabled/index.py
 
 # Acessar http://localhost/cgi-enabled/index.py 
 # Pra acessar o arquivo first.py faça: http://localhost/cgi-bin/first.py
-
-
-
-
-  
-
-   
