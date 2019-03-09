@@ -26,7 +26,7 @@ testar o serviço de CGI, as páginas são nomeadas de first.py e index.py.
 * Baixe o arquivo. </br>
 `git clone https://github.com/RandelSouza/CGI-com-Python.git`
 * Acesse a pasta do script cgi.sh. </br>
-`cd CGI/`
+`cd CGI-com-Python/CGI/`
 * Conceder permissão de execução ao arquivo cgi.sh. </br>
 `sudo chmod +x cgi.sh`
 * Em seguida execute o script cgi.sh. </br>
