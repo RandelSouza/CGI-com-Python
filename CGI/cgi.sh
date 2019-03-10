@@ -7,6 +7,7 @@
 sudo apt-get install apache2 -y
 sudo apt-get install curl -y
 
+# Habilitando a leitura de arquivos CGI
 cd /etc/apache2/mods-enabled/
 sudo ln -s ../mods-available/cgi.load
 sudo a2enmod cgi
