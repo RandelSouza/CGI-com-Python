@@ -13,6 +13,7 @@ sudo ln -s ../mods-available/cgi.load
 sudo a2enmod cgi
 sudo systemctl restart apache2
 
+# Criando página teste em cgi-bin
 sudo cat > /usr/lib/cgi-bin/first.py <<EOF
 #!/usr/bin/env python
 print "Content-type:text/html\n\n"
