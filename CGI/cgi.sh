@@ -3,8 +3,10 @@
 # Antes de Executar dar permisão de execução "chmod +x cgi.sh"
 # Quando for executar utilizar o comando "sudo ./cgi.sh"
 
+# Instalando apache e curl
 sudo apt-get install apache2 -y
 sudo apt-get install curl -y
+
 cd /etc/apache2/mods-enabled/
 sudo ln -s ../mods-available/cgi.load
 sudo a2enmod cgi
