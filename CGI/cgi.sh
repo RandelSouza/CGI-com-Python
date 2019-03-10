@@ -36,6 +36,7 @@ sudo mkdir /var/www/html/cgi-enabled
 sudo a2enconf cgi-enabled
 sudo systemctl restart apache2
 
+# Criando a página index.py dentro de cgi-enabled
 sudo cat > /var/www/html/cgi-enabled/index.py <<EOF
 #!/usr/bin/env python
 
