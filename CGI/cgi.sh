@@ -31,6 +31,7 @@ sudo cat > /etc/apache2/conf-available/cgi-enabled.conf <<EOF
 </Directory>
 EOF
 
+# Criando a pasta cgi-enabled 
 sudo mkdir /var/www/html/cgi-enabled
 sudo a2enconf cgi-enabled
 sudo systemctl restart apache2
