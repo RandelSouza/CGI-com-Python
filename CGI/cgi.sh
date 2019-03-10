@@ -22,6 +22,7 @@ EOF
 
 sudo chmod 705 /usr/lib/cgi-bin/first.py
 
+# Tornando os scrips visiveis
 sudo cat > /etc/apache2/conf-available/cgi-enabled.conf <<EOF
 # Process .cgi and .py as CGI scripts
 <Directory "/var/www/html/cgi-enabled">
